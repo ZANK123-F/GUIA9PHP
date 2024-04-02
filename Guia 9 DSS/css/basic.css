@@ -1,0 +1,43 @@
+/*  ==================
+    1. FONTS
+    ==================  */
+/* Lobster font for headings */
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+/* Lato font for the content */
+@import url(http://fonts.googleapis.com/css?family=Lato); 
+/* Entypo pictograms by Daniel Bruce — www.entypo.com */
+
+@font-face {
+	font-family: 'entypo';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/entypo/entypo.eot');
+	src: url('../fonts/entypo/entypo.eot?#iefix') format('eot'), 
+	     url('../fonts/entypo/entypo.woff') format('woff'), 
+	     url('../fonts/entypo/entypo.ttf') format('truetype'), 
+	     url('../fonts/entypo/entypo.svg#entypo') format('svg');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	font-family: 'Lato', Arial, Helvetica, sans-serif; /* Edit this if you want to match the font with your template design. IF you change it to your font, don't forget to delete the @import above */
+	vertical-align: baseline;
+	line-height: normal;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../img/bg-darkgray.jpg");
+    background-position: center center;
+    color: #fff;
+}
